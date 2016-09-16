@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">OnBoarding</string>
+
+    <!-- Screen 1 -->
+    <string name="txt_snap">Snap</string>
+    <string name="msg_screen_1">Snap a photo of the product you want to sell</string>
+
+    <!-- Screen 2 -->
+    <string name="txt_describe">Describe</string>
+    <string name="msg_screen_2_line_1">Add a brief description</string>
+    <string name="msg_screen_2_line_2">about the product &amp; set a price</string>
+
+    <!-- Screen 3 -->
+    <string name="txt_share_publish">Share &amp; Publish</string>
+    <string name="msg_screen_3_line_1">Publish your product across multiple</string>
+    <string name="msg_screen_3_line_2">social networks, instant messengers or email</string>
+
+    <!-- Screen 4 -->
+    <string name="txt_empire_waist_dress">Empire Waist Dress</string>
+    <string name="msg_screen_4_line_1">An opluently embellished halter neckline anchors the ruched bodice and sweeping tiered skirt of a wispy chiffon gown</string>
+    <string name="txt_collect_payments">Collect payments \n&amp; interact with buyers</string>
+    <string name="msg_screen_4_line_2">Your buyers feel secure using our buyer protection guarantee &amp; can chat with you using in-built instant messenger</string>
+
+    <!-- Transition names -->
+    <string name="transition_dress">transition_dress</string>
+
+</resources>

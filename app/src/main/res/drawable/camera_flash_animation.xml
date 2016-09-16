@@ -1,0 +1,32 @@
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true">
+
+    <item
+        android:drawable="@drawable/camera_flash_01"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/camera_flash_02"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/camera_flash_03"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/camera_flash_04"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/camera_flash_05"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/camera_flash_06"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/camera_flash_07"
+        android:duration="100" />
+
+</animation-list>

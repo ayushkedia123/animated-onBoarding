@@ -1,0 +1,137 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/rl_image_screen_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:id="@+id/iv_bg_circle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/bg_circle" />
+
+        <ImageView
+            android:id="@+id/iv_big_dress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="165dp"
+            android:background="@drawable/red_dress" />
+
+        <ImageView
+            android:id="@+id/iv_camera_flash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-60dp"
+            android:layout_marginTop="70dp"
+            android:layout_toRightOf="@+id/rl_phone"
+            android:background="@drawable/camera_flash_animation" />
+
+        <RelativeLayout
+            android:id="@+id/rl_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="96dp">
+
+            <ImageView
+                android:id="@+id/iv_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/phone_with_screen_cut" />
+
+            <ImageView
+                android:id="@+id/iv_camera_corners"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/camera_corners" />
+
+            <ImageView
+                android:id="@+id/iv_dress_inside_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/dress_inside_phone"
+                android:transitionName="@string/transition_dress" />
+
+            <ImageView
+                android:id="@+id/iv_camera_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/iv_phone"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/btn_camera_click" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/iv_focus_plus_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/iv_big_dress"
+            android:layout_below="@+id/iv_big_dress"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/plus_2" />
+
+        <ImageView
+            android:id="@+id/iv_focus_plus_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/iv_big_dress"
+            android:layout_alignTop="@+id/rl_phone"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="75dp"
+            android:src="@drawable/plus_1" />
+
+        <ImageView
+            android:id="@+id/iv_focus_plus_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/iv_bg_circle"
+            android:layout_alignTop="@+id/rl_phone"
+            android:layout_marginLeft="43dp"
+            android:layout_marginTop="60dp"
+            android:src="@drawable/plus_2" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_image_screen_1"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/tv_txt_snap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/txt_snap"
+            android:textColor="@color/txt_dark"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_msg_screen_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_txt_snap"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="@string/msg_screen_1"
+            android:textColor="@color/txt_color_light"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
